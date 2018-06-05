@@ -542,18 +542,19 @@ body {
   visibility: hidden; }
 
 body {
-  text-align: center; }
+  background: #345;
+  color: #fff; }
 
-.img-html,
-.img-css {
-  display: block;
-  width: 30vh;
-  height: 30vh;
-  margin-left: auto;
-  margin-right: auto; }
-
-.img-css {
-  background-image: url("../img/fig-2__med.jpg");
+.hero {
+  background: url("https://images.unsplash.com/photo-1495188821276-84991753921a?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=cd1bae27182139bf356d548183ef324f&auto=format&fit=crop&w=1350&q=80");
   background-size: cover;
-  background-position: center center;
-  background-color: red; }
+  height: 100vh;
+  text-align: center;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: center;
+      justify-content: center;
+  -ms-flex-align: center;
+      align-items: center; }
+  .hero__title {
+    color: #fff; }
